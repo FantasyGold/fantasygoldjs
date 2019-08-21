@@ -1,5 +1,5 @@
 {
-  "name": "fantasygoldjs",
+  "name": "@fantasygold/fantasygoldjs",
   "version": "1.0.0",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -40,5 +40,22 @@
     "typescript": "^3.5.3",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
-  }
+  },
+  "description": "The FGC JavaScript library for Smart Contract development.",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FantasyGold/fantasygoldjs.git"
+  },
+  "keywords": [
+    "fantasygold"
+  ],
+  "author": "FantasyGold Core",
+  "bugs": {
+    "url": "https://github.com/FantasyGold/fantasygoldjs/issues"
+  },
+  "homepage": "https://github.com/FantasyGold/fantasygoldjs#readme"
 }
