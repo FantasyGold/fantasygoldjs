@@ -18,6 +18,16 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@fantasygold/fantasygoldjs-ethjs-abi@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@fantasygold/fantasygoldjs-ethjs-abi/-/fantasygoldjs-ethjs-abi-1.0.0.tgz#f8aeccc570a96cbd4db79919ea2859d101d3d5b8"
+  integrity sha512-7vfessKY5O1uYGmNWoLJdVSvDA187MOrBsguGEO7DuVS7NCjAzoyPImNxD9OEBI6iQIct8Is51u7YTCEztAThA==
+  dependencies:
+    bn.js "4.11.6"
+    buffer "^5.0.8"
+    js-sha3 "0.5.5"
+    number-to-bn "1.7.0"
+
 "@types/chai-as-promised@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@types/chai-as-promised/-/chai-as-promised-7.1.0.tgz#010b04cde78eacfb6e72bfddb3e58fe23c2e78b9"
@@ -197,9 +207,9 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
 acorn@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.2.0.tgz#67f0da2fc339d6cfb5d6fb244fd449f33cd8bbe3"
-  integrity sha512-8oe72N3WPMjA+2zVG71Ia0nXZ8DpQH+QyyHO+p06jT8eg8FGG3FbcUIi8KziHlAfheJQZeoqbvq1mQSQHXKYLw==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -2486,15 +2496,6 @@ punycode@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-fantasygoldjs-ethjs-abi@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/fantasygoldjs-ethjs-abi/-/fantasygoldjs-ethjs-abi-1.0.3.tgz#d2aecd89abfa4e118de48af9a741855cd89947dd"
-  dependencies:
-    bn.js "4.11.6"
-    buffer "^5.0.8"
-    js-sha3 "0.5.5"
-    number-to-bn "1.7.0"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
